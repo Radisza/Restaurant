@@ -3,16 +3,13 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    "eslint:recommended",
-    "prettier"
-  ],
+  extends: ["eslint:recommended", "prettier"],
   overrides: [
     {
       env: {
         node: true,
       },
-      files: [".eslintrc.{js,cjs}"],
+      files: [".eslintrc.{js,cjs}", "webpack.config.js"],
       parserOptions: {
         sourceType: "script",
       },
