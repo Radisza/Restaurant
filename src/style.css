@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Decorative Font";
+  src: url("./font/Cinzel-VariableFont_wght.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./img/background.jpg");
+}
+
+.main_container {
+  height: 95vh;
+  max-width: 1100px;
+  margin: 16px auto;
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.header {
+  font-family: "Decorative Font" sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 32px;
+}
+
+.tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-list > li {
+  list-style: none;
+  text-align: center;
+  background-color: ivory;
+  margin: 16px;
+  padding: 16px 32px;
+  border-radius: 10px;
+  border: thick double darkgray;
+}
+
+.tab-list > li:active {
+  background-color: rgb(251, 251, 167);
+}
+
+.tab-list > li:hover {
+  cursor: pointer;
+}
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
+
+table > caption {
+  font-weight: 700;
+}
+
+.google-map {
+  width: 60%;
+}
+
+.quote {
+  background-color: rgb(183, 182, 182);
+  border-radius: 20px;
+  margin: 100px 16px 16px;
+  padding: 16px;
+}
+
+.quote:nth-child(2) {
+  font-weight: 700;
+}
+
+.content_item {
+  margin-top: 16px;
+}
